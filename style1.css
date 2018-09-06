@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto';
+    font-size: 15px;
+   
+    }
+
+
+
+h1  { color: orange; }
+h2  { color: red; }
+a { color:red; }
+
+header { width:1200px;
+background-color:pink;
+height:200;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.container .img_box {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.container .img_box img {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+}
+.container .img_box span {
+  background:white;
+  padding: 4px;
+  opacity: 0.5;
+}
+
+
+footer{
+  background-color:blue;
+  text-align:center;
+  padding:20px;
+  margin:0px;
+width:1200px;
+}
+
