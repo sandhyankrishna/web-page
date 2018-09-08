@@ -1,19 +1,23 @@
 body {
     font-family: 'Roboto';
-    font-size: 15px;
-   
+    font-size: 19px;
+    justify-content: flex-start;
     }
-
-
-
+    
+    .flex-container > div {
+      background-color:blue;
+      
+      align-items: center;
+                }
+                div {
+                  display: block;
+              }
 h1  { color: orange; }
 h2  { color: red; }
 a { color:red; }
 
-header { width:1200px;
-background-color:pink;
-height:200;
-}
+
+
 .container {
   display: flex;
   align-items: center;
@@ -35,7 +39,7 @@ height:200;
   width: 150px;
 }
 .container .img_box span {
-  background:white;
+  background:pink;
   padding: 4px;
   opacity: 0.5;
 }
@@ -46,6 +50,6 @@ footer{
   text-align:center;
   padding:20px;
   margin:0px;
-width:1200px;
+
 }
 
