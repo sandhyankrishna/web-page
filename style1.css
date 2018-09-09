@@ -3,6 +3,50 @@ body {
   font-size: 19px;
   justify-content: flex-start;
   }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: Blue;
+}
+.flex-container  {
+  background-color: blue;
+  }
+.link {
+   display: flex;
+flex-direction: row;
+background-color: Blue;
+}
+#slider {
+overflow: hidden;
+flex-direction: row;
+}
+#slider figure {
+ position: relative;
+width: 200px;
+margin: 0;
+left: 0;
+animation: mymove 20s infinite;
+
+}
+
+#slider figure img {
+width: 20px;
+float: left;
+}
+
+ 
+@ mymove {
+   from { left: 0px;}
+   to  { left: 200px;}
+   }
+ 
+@keyframes mymove {
+  from { left: 0px;}
+   to  { left: 200px;}
+}
+
+
   
   .flex-container > div {
     background-color:blue;
