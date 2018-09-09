@@ -12,26 +12,21 @@ body {
 .flex-container  {
   background-color: blue;
   }
-.link {
-   display: flex;
-flex-direction: row;
-background-color: Blue;
-}
+
 #slider {
 overflow: hidden;
 flex-direction: row;
 }
 #slider figure {
  position: relative;
-width: 200px;
-margin: 0;
-left: 0;
+margin: 10px;
+left: 0px;
 animation: mymove 20s infinite;
-
 }
 
 #slider figure img {
-width: 20px;
+width: 150px;
+height: 250px;
 float: left;
 }
 
