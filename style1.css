@@ -9,6 +9,13 @@ body {
   flex-direction: row;
   background-color: Blue;
 }
+
+:before {
+    content: "\00a0"; 
+   padding: 3px;
+   
+  }
+
 .flex-container  {
   background-color: blue;
   }
