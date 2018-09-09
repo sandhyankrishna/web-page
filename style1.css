@@ -1,18 +1,18 @@
 body {
-    font-family: 'Roboto';
-    font-size: 19px;
-    justify-content: flex-start;
-    }
+  font-family: 'Roboto';
+  font-size: 19px;
+  justify-content: flex-start;
+  }
+  
+  .flex-container > div {
+    background-color:blue;
     
-    .flex-container > div {
-      background-color:blue;
-      
-      align-items: center;
-                }
-              
-                div {
-                  display: block;
+    align-items: center;
               }
+            
+              div {
+                display: block;
+            }
 h1  { color: orange; }
 h2  { color: red; }
 a { color:red; }
@@ -20,37 +20,36 @@ a { color:red; }
 
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-wrap: wrap;
 }
 .container .img_box {
-  height: 200px;
-  width: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
+height: 200px;
+width: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px;
 }
 
 .container .img_box img {
-  position: absolute;
-  height: 150px;
-  width: 150px;
+position: absolute;
+height: 150px;
+width: 150px;
 }
 .container .img_box span {
-  background:pink;
-  padding: 4px;
-  opacity: 0.5;
+background:pink;
+padding: 4px;
+opacity: 0.5;
 }
 
 
 footer{
-  background-color:blue;
-  text-align:center;
-  padding:20px;
-  margin:0px;
+background-color:blue;
+text-align:center;
+padding:20px;
+margin:0px;
 
 }
-

@@ -7,46 +7,44 @@
 
 <link rel="stylesheet" type="text/css" href="style1.css">
 <script type="text/javascript">
-
 </script>
 <style>
 .flex-container {
   display: flex;
   flex-direction: row;
-  background-color: DodgerBlue;
+  background-color: Blue;
 }
-
 .flex-container  {
   background-color: blue;
   }
-
 #slider {
 overflow: hidden;
 }
 #slider figure {
- position: reflection;
-width: 500%;
-height: 500%;
+ position:position relative;
+width: 200px;
+height: 200px;
 margin: 0;
 left: 0;
-animation: 20% slider infinite;
 }
-# slider figure img {
-width: 80%;
+#slider figure img {
+width: 200px;
 float: left;
 }
-@keyframes slider {
-0% {
-left: 10;
-}
-20% {
-left: 10;
-}
-25% { 
-left: -10%;
-}
-45%: {
-left: -10;
+div   {
+  width: 200px;
+height: 200px;
+position: relative;
+animation: mymove 20s infinite;
+ }
+@ mymove {
+   from { left: 0px;}
+   to  { left: 200px;}
+   }
+ 
+@keyframes mymove {
+  from { left: 0px;}
+   to  { left: 200px;}
 }
 </style>
 		</head>
@@ -62,11 +60,7 @@ left: -10;
 <div><a class="register" href="https://www.mvjce.edu.in/all-events/" target="_self">Events</a>&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <div><a class="register" href="https://www.mvjce.edu.in/press-release/" target="_self">MVJCE in News</a>&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <div><a class="register" href="http://45.112.139.194:8088/WebForms/Alumini/AluminiRegistration.aspx?ConnectionID=1&amp;CollegeId=1" target="_blank">Alumni Registration</a></div>
-
 </div>
-
-
-
 <div id="slider">
 <figure>
 <img src="https://images.static-collegedunia.com/public/college_data/images/campusimage/1415701932mj4.jpg" width:"400" height="400">
@@ -74,9 +68,6 @@ left: -10;
 <img src="https://images.static-collegedunia.com/public/college_data/images/campusimage/1415701932mj6.jpg" width:"400" height="400">
 </figure>   
 </div>
-
-
-
 <div class='container'>
       <div class='img_box'>
         <img src="https://images.static-collegedunia.com/public/college_data/images/campusimage/1415701932mj4.jpg" height="200" width="200">
