@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto';
+   font-family: 'Roboto';
   font-size: 19px;
   justify-content: flex-start;
   }
@@ -16,11 +16,12 @@ body {
    padding: 3px;
    
   }
+ 
 
 .flex-container  {
   background-color: blue;
   margin: 0px;
-  }
+   }
 
 #slider {
 overflow: hidden;
@@ -38,8 +39,6 @@ width: 250px;
 height: 250px;
 float: left;
 }
-
- 
 @ mymove {
    from { left: 0px;}
    to  { left: 100px;}
@@ -60,6 +59,7 @@ float: left;
             
               div {
                 display: block;
+                align-content: row;
             }
 h1  { color: orange; }
 h2  { color: red; }
@@ -74,8 +74,8 @@ justify-content: flex-start;
 flex-wrap: wrap;
 }
 .container .img_box {
-height: 150px;
-width: 150px;
+height: 250px;
+width: 250px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -84,8 +84,8 @@ margin:10px;
 
 .container .img_box img {
 position: absolute;
-height: 150px;
-width: 150px;
+height: 250px;
+width: 250px;
 }
 .container .img_box span {
 background:pink;
